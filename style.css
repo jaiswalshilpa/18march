@@ -3,3 +3,9 @@
     font: size 110px;
     text-align: center;
 }
+.para {font-size: larger;
+    color:rgb(119, 25, 241);
+    display: flex;
+    flex-wrap:nowrap;
+
+}
