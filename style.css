@@ -1,11 +1,30 @@
-.name {
-    font:red;
-    font: size 110px;
-    text-align: center;
+body{background-color: rgb(210, 243, 24);}
+
+.header{
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;}
+
+.navbar a{display: flex;
+    justify-content:space-evenly;
+    font-size: larger;
+ }
+ .img{display: flex;
+      justify-content:right;
 }
+.navbar a:hover{
+    color:blue
+}
+
 .para {font-size: larger;
-    color:rgb(119, 25, 241);
+    color:red;
     display: flex;
     flex-wrap:nowrap;
-
 }
+
+.intro{display: flex;
+flex-direction: column;}
+
+
+
