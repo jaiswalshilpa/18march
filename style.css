@@ -1,30 +1,40 @@
 body{background-color: rgb(210, 243, 24);}
 
-.header{
-    font-size: larger;
-    display: flex;
-    justify-content: center;
-    justify-content: space-between;}
-
 .navbar a{display: flex;
     justify-content:space-evenly;
     font-size: larger;
+    margin: 10px 20px 20px 20px;
+    display: inline-block;
+    align-items: right;
+
+    
  }
  .img{display: flex;
       justify-content:right;
+      padding-top:0%;
+      padding-right: 10%;
+      align-items: center;
+    
 }
 .navbar a:hover{
     color:blue
 }
 
-.para {font-size: larger;
-    color:red;
-    display: flex;
-    flex-wrap:nowrap;
+.heading para {position:absolute;
+    margin-top: 25px;
+    margin-left: 2%;
+    margin-right: 20%;
+    color: blue;
+    
 }
-
-.intro{display: flex;
-flex-direction: column;}
+.heading{display: flex;
+        margin-left: 8%;
+    margin-top:5%;
+}
+.heading h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
 
 
 
